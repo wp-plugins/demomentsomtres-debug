@@ -1,7 +1,7 @@
 === DeMomentSomTres DEBUG ===
 Contributors: marcqueralt
 Tags: custom debug, multisite
-Tested up to: 4.0
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GPLv2 or later
 
@@ -12,6 +12,8 @@ Debug only one of my sites in a multisite network
 I needed to debug only one of my sites in a multisite network so I was not allowed to use WP_DEBUG.
 
 So, I implemented the changes that WP_DEBUG does but only for the website it is installed.
+
+It also saves results on wp-content/errors.log
 
 == Installation ==
 
